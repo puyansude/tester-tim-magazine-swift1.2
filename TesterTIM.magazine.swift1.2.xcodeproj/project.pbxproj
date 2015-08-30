@@ -13,6 +13,13 @@
 		B59F7F211B93888000A9F895 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59F7F201B93888000A9F895 /* Images.xcassets */; };
 		B59F7F241B93888000A9F895 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59F7F221B93888000A9F895 /* LaunchScreen.xib */; };
 		B59F7F301B93888100A9F895 /* TesterTIM_magazine_swift1_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59F7F2F1B93888100A9F895 /* TesterTIM_magazine_swift1_2Tests.swift */; };
+		B59F7F3F1B938A3900A9F895 /* TIM.Magazine.image003.png in Resources */ = {isa = PBXBuildFile; fileRef = B59F7F3C1B938A3900A9F895 /* TIM.Magazine.image003.png */; };
+		B59F7F401B938A3900A9F895 /* TIM.Magazine.image002.png in Resources */ = {isa = PBXBuildFile; fileRef = B59F7F3D1B938A3900A9F895 /* TIM.Magazine.image002.png */; };
+		B59F7F411B938A3900A9F895 /* TIM.Magazine.image001.png in Resources */ = {isa = PBXBuildFile; fileRef = B59F7F3E1B938A3900A9F895 /* TIM.Magazine.image001.png */; };
+		B59F7F431B938B9300A9F895 /* Magazine01.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59F7F421B938B9300A9F895 /* Magazine01.xib */; };
+		B59F7F471B938F1F00A9F895 /* Magazine02.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59F7F441B938F1F00A9F895 /* Magazine02.xib */; };
+		B59F7F481B938F1F00A9F895 /* Magazine03.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59F7F451B938F1F00A9F895 /* Magazine03.xib */; };
+		B59F7F491B938F1F00A9F895 /* Magazine04.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59F7F461B938F1F00A9F895 /* Magazine04.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		B59F7F291B93888000A9F895 /* TesterTIM.magazine.swift1.2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesterTIM.magazine.swift1.2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59F7F2E1B93888000A9F895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B59F7F2F1B93888100A9F895 /* TesterTIM_magazine_swift1_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterTIM_magazine_swift1_2Tests.swift; sourceTree = "<group>"; };
+		B59F7F3C1B938A3900A9F895 /* TIM.Magazine.image003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TIM.Magazine.image003.png; sourceTree = "<group>"; };
+		B59F7F3D1B938A3900A9F895 /* TIM.Magazine.image002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TIM.Magazine.image002.png; sourceTree = "<group>"; };
+		B59F7F3E1B938A3900A9F895 /* TIM.Magazine.image001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TIM.Magazine.image001.png; sourceTree = "<group>"; };
+		B59F7F421B938B9300A9F895 /* Magazine01.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Magazine01.xib; sourceTree = "<group>"; };
+		B59F7F441B938F1F00A9F895 /* Magazine02.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Magazine02.xib; sourceTree = "<group>"; };
+		B59F7F451B938F1F00A9F895 /* Magazine03.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Magazine03.xib; sourceTree = "<group>"; };
+		B59F7F461B938F1F00A9F895 /* Magazine04.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Magazine04.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,7 @@
 		B59F7F161B93888000A9F895 /* TesterTIM.magazine.swift1.2 */ = {
 			isa = PBXGroup;
 			children = (
+				B59F7F391B93899C00A9F895 /* Ressources */,
 				B59F7F191B93888000A9F895 /* AppDelegate.swift */,
 				B59F7F1B1B93888000A9F895 /* ViewController.swift */,
 				B59F7F1D1B93888000A9F895 /* Main.storyboard */,
@@ -110,6 +125,36 @@
 				B59F7F2E1B93888000A9F895 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B59F7F391B93899C00A9F895 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				B59F7F3B1B9389B700A9F895 /* Pages écrans */,
+				B59F7F3A1B9389AF00A9F895 /* Images */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		B59F7F3A1B9389AF00A9F895 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B59F7F3C1B938A3900A9F895 /* TIM.Magazine.image003.png */,
+				B59F7F3D1B938A3900A9F895 /* TIM.Magazine.image002.png */,
+				B59F7F3E1B938A3900A9F895 /* TIM.Magazine.image001.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B59F7F3B1B9389B700A9F895 /* Pages écrans */ = {
+			isa = PBXGroup;
+			children = (
+				B59F7F441B938F1F00A9F895 /* Magazine02.xib */,
+				B59F7F451B938F1F00A9F895 /* Magazine03.xib */,
+				B59F7F461B938F1F00A9F895 /* Magazine04.xib */,
+				B59F7F421B938B9300A9F895 /* Magazine01.xib */,
+			);
+			name = "Pages écrans";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +237,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59F7F3F1B938A3900A9F895 /* TIM.Magazine.image003.png in Resources */,
+				B59F7F491B938F1F00A9F895 /* Magazine04.xib in Resources */,
 				B59F7F1F1B93888000A9F895 /* Main.storyboard in Resources */,
+				B59F7F431B938B9300A9F895 /* Magazine01.xib in Resources */,
+				B59F7F411B938A3900A9F895 /* TIM.Magazine.image001.png in Resources */,
 				B59F7F241B93888000A9F895 /* LaunchScreen.xib in Resources */,
+				B59F7F471B938F1F00A9F895 /* Magazine02.xib in Resources */,
+				B59F7F401B938A3900A9F895 /* TIM.Magazine.image002.png in Resources */,
 				B59F7F211B93888000A9F895 /* Images.xcassets in Resources */,
+				B59F7F481B938F1F00A9F895 /* Magazine03.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
